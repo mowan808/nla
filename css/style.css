@@ -8,6 +8,7 @@ html, body{
     font-size: 100%;
   	background:#000;
   	overflow-x: hidden;
+    overflow-y: hidden;
 }
 body a{
 	transition:0.5s all;
@@ -262,7 +263,8 @@ ul.nav.navbar-nav.navbar-right {
   height: 51px;
 }
 .sidebar-nav.navbar-collapse {
-  margin: 2em 0 0 0;
+  margin: 0.4em 0 0 0;
+  height: 100%;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color:rgba(231, 231, 231, 0) !important;
