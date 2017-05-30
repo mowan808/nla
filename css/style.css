@@ -160,7 +160,7 @@ body a{
   line-height: 40px;
   padding: 0 15px;
   font-size: 14px;
-  width:300px;
+  width:120px;
 }
 .navbar .navbar-nav li .dropdown-menu li.avatar a {
   line-height: 59px;
@@ -268,7 +268,7 @@ ul.nav.navbar-nav.navbar-right {
   background-color:rgba(231, 231, 231, 0) !important;
 }
 .dropdown-menu {
-  min-width: 202px !important;
+  min-width: 120px !important;
 }  
 /* Active state */
 .wrapper-dropdown-4.active i.dropdown-icon{
