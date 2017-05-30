@@ -1,12 +1,10 @@
 <!DOCTYPE HTML>
-<html>
+<html >
 <head>
-<title>Login</title>
+<title>后台登录</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Modern Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript">addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
@@ -20,31 +18,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body id="login">
   <div class="login-logo">
-    <a href="index.html"><img src="images/logo.png" alt=""/></a>
+    <a href="index.html"><!--<img src="images/logo.png" alt=""/>--></a>
   </div>
-  <h2 class="form-heading">login</h2>
+  <h2 class="form-heading">登录</h2>
   <div class="app-cam">
-	  <form>
-		<input type="text" class="text" value="E-mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail address';}">
-		<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
-		<div class="submit"><input type="submit" onclick="myFunction()" value="Login"></div>
-		<div class="login-social-link">
-          <a href="index.html" class="facebook">
-              Facebook
-          </a>
-          <a href="index.html" class="twitter">
-              Twitter
-          </a>
-        </div>
-		<ul class="new">
-			<li class="new_left"><p><a href="#">Forgot Password ?</a></p></li>
-			<li class="new_right"><p class="sign">New here ?<a href="register.html"> Sign Up</a></p></li>
-			<div class="clearfix"></div>
-		</ul>
+	  <form action="main.html" method="get">
+		<input type="text" class="text" value="用户名或者邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名或者邮箱';}">
+		<input type="password" value="密码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密码';}">
+		<div class="submit"><input type="submit"  value="登录"></div>
 	</form>
   </div>
    <div class="copy_layout login">
-      <p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+      <p>Copyright &copy; 2015.Company name All rights reserved</p>
    </div>
 </body>
+
 </html>
