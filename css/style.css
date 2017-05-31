@@ -1479,7 +1479,8 @@ div.checker input {
   background: #FAFAFA;
 }
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-  padding:15px !important;
+  padding:5px !important;
+  border-bottom: 1px dashed saddlebrown !important;
 }
 .table > thead > tr > th {
   border-bottom: 1px solid #ddd !important;
@@ -2822,4 +2823,4 @@ span.btn_7{
         margin-left: auto;
     }
 }
-
+a{text-decoration: none !important;cursor: pointer !important;}
